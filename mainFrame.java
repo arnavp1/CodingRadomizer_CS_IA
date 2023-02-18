@@ -36,18 +36,6 @@ public class mainFrame extends JFrame {
         problemPanel.setBounds(0, 0, 350, 250);
         problemPanel.setVisible(false);
 
-        /*
-        firstPanel = new JPanel();
-        firstPanel.setBounds(50, 50, 300, 200);
-        layeredPane.add(firstPanel, new Integer(0));
-
-
-        secondPanel = new JPanel();
-        secondPanel.setBounds(50, 50, 300, 200);
-        secondPanel.setVisible(false);
-        layeredPane.add(secondPanel, new Integer(1));
-        */
-
         // setup for title label
         title = new JLabel("Coding Problem Randomizer");
         title.setBounds(85, 10, 180, 30);
